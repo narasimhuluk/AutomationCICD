@@ -38,13 +38,14 @@ public class ErrorValidationTest extends BaseTest {
 	public void getTexterror() throws InterruptedException {
 		String productName = "ADIDAS ORIGINAL";
 		ProductCatelogPage pc = loginPage.getloginIntoApp("anshika@gmail.com", "Iamki000");
-
+		Assert.assertTrue(false);
 	}
 
 	@Test
 	public void getTexterror2() throws InterruptedException {
 		String productName = "ADIDAS ORIGINAL";
 		ProductCatelogPage pc = loginPage.getloginIntoApp("anshika@gmail.com", "Iamki000");
+		Assert.assertTrue(false);
 
 	}
 
@@ -52,6 +53,7 @@ public class ErrorValidationTest extends BaseTest {
 	public void getTexterror3() throws InterruptedException {
 		String productName = "ADIDAS ORIGINAL";
 		ProductCatelogPage pc = loginPage.getloginIntoApp("anshika@gmail.com", "Iamki000");
+		Assert.assertTrue(false);
 		Assert.assertTrue(false);
 	}
 }
